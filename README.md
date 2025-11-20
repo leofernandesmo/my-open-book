@@ -11,6 +11,28 @@ This README will guide you through:
 4. How to **build and preview** the book locally
 5. (Optional) How to **deploy** the website using GitHub Pages
 
+
+
+## 🔧 Using this repository as a template
+
+1. Click **Use this template** on GitHub.
+2. Choose a name for your new repository, e.g. `my-web-programming-book`.
+3. After creating the repo, edit:
+
+   - `mkdocs.yml`:
+     - `site_name`
+     - `site_description`
+     - `site_url` and `repo_url`
+   - `docs/index.md`, `docs/cover.md`, `docs/title-page.md`, etc.:
+     - Replace placeholder title, author, institution, year, etc.
+
+4. Enable GitHub Pages under **Settings → Pages**:
+   - Source: `Deploy from a branch`
+   - Branch: `gh-pages`, folder `/`
+
+
+### Or you can create your own open-book template...
+
 ---
 
 # ⭐ 1. Forking the Repository
