@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+# 👇 This is the important part
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
