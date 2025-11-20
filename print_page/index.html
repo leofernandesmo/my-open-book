@@ -305,7 +305,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../chapters/01-introduction.md" class="md-tabs__link">
+        <a href="../chapters/01-introduction/" class="md-tabs__link">
           
   
   
@@ -579,7 +579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chapters/01-introduction.md" class="md-nav__link">
+      <a href="../chapters/01-introduction/" class="md-nav__link">
         
   
   
@@ -807,6 +807,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#chapters-01-introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 1. Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#chapters-02-first-steps" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -957,20 +968,162 @@ It is designed to be:</p>
 </ul>
 </div>
 <hr />
-<p><a href="#preface-chapters-01-introduction.md">:material-book-open-page-variant: Start Chapter 1 – Introduction</a><br />
+<p><a href="#chapters-01-introduction">:material-book-open-page-variant: Start Chapter 1 – Introduction</a><br />
 <a href="#title-page">:material-arrow-left: Back to Title Page</a></p></section>
                     <section class='print-page md-section' id='section-5' heading-number='5'>
                         <h1>Chapters<a class='headerlink' href='#section-5' title='Permanent link'></a>
                         </h1>
-                    <section class="print-page" id="chapters-02-first-steps" heading-number="5.2"><h1 id="chapters-02-first-steps-chapters-02-first-steps">2. First Steps</h1><h3 id="docschapters02-first-stepsmd-minimal"><code>docs/chapters/02-first-steps.md</code> (minimal)<a class="headerlink" href="#chapters-02-first-steps-docschapters02-first-stepsmd-minimal" title="Permanent link">&para;</a></h3>
+                    <section class="print-page" id="chapters-01-introduction" heading-number="5.1"><h1 id="chapters-01-introduction-1-introduction">1. Introduction<a class="headerlink" href="#chapters-01-introduction-1-introduction" title="Permanent link">&para;</a></h1>
+<p>In this chapter, we introduce the core ideas of <strong>[Topic]</strong>.</p>
+<hr />
+<h2 id="chapters-01-introduction-11-descriptive-text">1.1 Descriptive Text<a class="headerlink" href="#chapters-01-introduction-11-descriptive-text" title="Permanent link">&para;</a></h2>
+<p>This book uses plain Markdown so it can be:</p>
+<ul>
+<li>Read directly on the web</li>
+<li>Exported or printed to <strong>PDF</strong></li>
+<li>Mixed with <strong>code</strong>, <strong>figures</strong>, <strong>videos</strong>, and <strong>audio</strong> seamlessly</li>
+</ul>
+<blockquote>
+<p>In software engineering education, using open materials allows students to
+inspect not only the final text but also the structure of the book, its
+version history, and collaborative contributions.</p>
+</blockquote>
+<hr />
+<h2 id="chapters-01-introduction-12-images">1.2 Images<a class="headerlink" href="#chapters-01-introduction-12-images" title="Permanent link">&para;</a></h2>
+<p>Store images under <code>docs/figures/</code> and reference them with relative paths:</p>
+<p><img alt="Example diagram of the system" src="../figures/example-diagram.png" title="System Architecture – Example" /></p>
+<p>Rendered:</p>
+<p><img alt="Example diagram of the system" src="../figures/example-diagram.png" title="System Architecture – Example" /></p>
+<blockquote>
+<p>ℹ️ Replace <code>example-diagram.png</code> with your actual diagram.</p>
+</blockquote>
+<hr />
+<h2 id="chapters-01-introduction-13-source-code-in-different-languages">1.3 Source Code in Different Languages<a class="headerlink" href="#chapters-01-introduction-13-source-code-in-different-languages" title="Permanent link">&para;</a></h2>
+<p>Below are examples of fenced code blocks with language tags for syntax highlighting.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="chapters-01-introduction-__tabbed_1_1" name="chapters-01-introduction-__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="chapters-01-introduction-__tabbed_1_1">Python</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="highlight"><pre><span></span><code>```python
+def greet(name: str) -&gt; str:
+    &quot;&quot;&quot;Return a greeting message.&quot;&quot;&quot;
+    return f&quot;Hello, {name}!&quot;
+
+if __name__ == &quot;__main__&quot;:
+    print(greet(&quot;Student&quot;))
+```
+</code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="chapters-01-introduction-__tabbed_2_1" name="chapters-01-introduction-__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="chapters-01-introduction-__tabbed_2_1">JavaScript</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="highlight"><pre><span></span><code>```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(&quot;Result:&quot;, sum(2, 3));
+```
+</code></pre></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="chapters-01-introduction-__tabbed_3_1" name="chapters-01-introduction-__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="chapters-01-introduction-__tabbed_3_1">Java</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<div class="highlight"><pre><span></span><code>```java
+public class Hello {
+    public static void main(String[] args) {
+        String name = (args.length &gt; 0) ? args[0] : &quot;Student&quot;;
+        System.out.println(&quot;Hello, &quot; + name + &quot;!&quot;);
+    }
+}
+```
+</code></pre></div>
+<p>You can add more languages as needed: <code>c</code>, <code>cpp</code>, <code>bash</code>, <code>html</code>, etc.</p>
+<hr />
+<h2 id="chapters-01-introduction-14-video-youtube-or-other-streaming">1.4 Video (YouTube or Other Streaming)<a class="headerlink" href="#chapters-01-introduction-14-video-youtube-or-other-streaming" title="Permanent link">&para;</a></h2>
+<p>Markdown has no native <code>&lt;video&gt;</code> tag, but we can:</p>
+<h3 id="chapters-01-introduction-a-simple-link">A. Simple Link<a class="headerlink" href="#chapters-01-introduction-a-simple-link" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Watch the introduction video:  
+https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+</code></pre></div>
+<p>Rendered:</p>
+<p>Watch the introduction video:
+<a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">https://www.youtube.com/watch?v=YOUR_VIDEO_ID</a></p>
+<h3 id="chapters-01-introduction-b-clickable-thumbnail">B. Clickable Thumbnail<a class="headerlink" href="#chapters-01-introduction-b-clickable-thumbnail" title="Permanent link">&para;</a></h3>
+<p>Assuming you have <code>docs/figures/example-video-thumb.png</code>:</p>
+<div class="highlight"><pre><span></span><code>[<span class="nt">![Watch the video</span>](<span class="na">../figures/example-video-thumb.png</span>)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID &quot;Intro Video&quot;)
+</code></pre></div>
+<p>Rendered:</p>
+<p><a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" title="Intro Video"><img alt="Watch the video" src="../figures/example-video-thumb.png" /></a></p>
+<hr />
+<h2 id="chapters-01-introduction-15-audio-podcast-or-lecture">1.5 Audio (Podcast or Lecture)<a class="headerlink" href="#chapters-01-introduction-15-audio-podcast-or-lecture" title="Permanent link">&para;</a></h2>
+<h3 id="chapters-01-introduction-simple-external-link">Simple External Link<a class="headerlink" href="#chapters-01-introduction-simple-external-link" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Listen to the companion podcast episode:  
+https://example.com/podcast/episode-1
+</code></pre></div>
+<p>Rendered:</p>
+<p>Listen to the companion podcast episode:
+<a href="https://example.com/podcast/episode-1">https://example.com/podcast/episode-1</a></p>
+<h3 id="chapters-01-introduction-embedded-local-audio-file">Embedded Local Audio File<a class="headerlink" href="#chapters-01-introduction-embedded-local-audio-file" title="Permanent link">&para;</a></h3>
+<p>If you place <code>example-audio.mp3</code> in <code>docs/media/</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">audio</span> <span class="na">controls</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">source</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;../media/example-audio.mp3&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;audio/mpeg&quot;</span><span class="p">&gt;</span>
+  Your browser does not support the audio element.
+<span class="p">&lt;/</span><span class="nt">audio</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Rendered:</p>
+<p><audio controls>
+  <source src="../media/example-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio></p>
+<p>Most modern browsers will show a built-in audio player.</p>
+<hr />
+<h2 id="chapters-01-introduction-16-playground-exercise">1.6 “Playground” Exercise<a class="headerlink" href="#chapters-01-introduction-16-playground-exercise" title="Permanent link">&para;</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Try it yourself</p>
+</div>
+<ol>
+<li>Copy the Python <code>greet</code> function from this chapter.</li>
+<li>Modify it to accept an optional parameter <code>course</code>, and print
+<code>"Hello, &lt;name&gt;, welcome to &lt;course&gt;!"</code>.</li>
+<li>Run it in your local environment or an online IDE (e.g., Replit, GitHub Codespaces).</li>
+</ol>
+<hr />
+<h2 id="chapters-01-introduction-17-quick-quiz">1.7 Quick Quiz<a class="headerlink" href="#chapters-01-introduction-17-quick-quiz" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Concept check</p>
+</div>
+<ol>
+<li>Why is using Markdown a good choice for open textbooks?</li>
+<li>What are the advantages of hosting the book on GitHub?</li>
+<li>How can a student generate a PDF from this book?</li>
+</ol>
+<details class="info">
+<summary>Suggested answers (click to expand)</summary>
+</details>
+<ol>
+<li>Markdown is simple, version-controllable, and tool-agnostic, and it can be converted to HTML/PDF and many other formats.</li>
+<li>GitHub provides version control, collaboration, issue tracking, and free hosting via GitHub Pages.</li>
+<li>Use the <strong>“Print / Save PDF”</strong> menu item, then the browser’s <strong>Print → Save as PDF</strong> option.</li>
+</ol>
+<hr />
+<p><a href="#preface">:material-arrow-left: Back to Preface</a>
+<a href="#chapters-02-first-steps">:material-arrow-right: Go to Chapter 2 – First Steps</a></p>
+<p>````</p>
+<h3 id="chapters-01-introduction-docschapters02-first-stepsmd-minimal"><code>docs/chapters/02-first-steps.md</code> (minimal)<a class="headerlink" href="#chapters-01-introduction-docschapters02-first-stepsmd-minimal" title="Permanent link">&para;</a></h3>
 <p>```markdown</p>
-<h1 id="chapters-02-first-steps-2-first-steps">2. First Steps<a class="headerlink" href="#chapters-02-first-steps-2-first-steps" title="Permanent link">&para;</a></h1>
+<h1 id="chapters-01-introduction-2-first-steps">2. First Steps<a class="headerlink" href="#chapters-01-introduction-2-first-steps" title="Permanent link">&para;</a></h1>
 <p>This chapter continues from the examples shown in Chapter 1 and begins the
 real journey into <strong>[Topic]</strong>.</p>
 <p>(Write your actual content here.)</p>
 <hr />
-<p><a href="#chapters-02-first-steps-01-introduction.md">:material-arrow-left: Back to Chapter 1</a><br />
-<a href="#chapters-99-appendix">:material-arrow-right: Go to Appendix</a></p></section><section class="print-page" id="chapters-99-appendix" heading-number="5.3"><h1 id="chapters-99-appendix-appendix-reference-material">Appendix – Reference Material<a class="headerlink" href="#chapters-99-appendix-appendix-reference-material" title="Permanent link">&para;</a></h1>
+<p><a href="#chapters-01-introduction">:material-arrow-left: Back to Chapter 1</a><br />
+<a href="#chapters-99-appendix">:material-arrow-right: Go to Appendix</a></p></section><section class="print-page" id="chapters-02-first-steps" heading-number="5.2"><h1 id="chapters-02-first-steps-2-first-steps">2. First Steps<a class="headerlink" href="#chapters-02-first-steps-2-first-steps" title="Permanent link">&para;</a></h1>
+<p>This chapter continues your learning journey.</p>
+<p><a href="#chapters-01-introduction">⬅ Back to Chapter 1</a></p></section><section class="print-page" id="chapters-99-appendix" heading-number="5.3"><h1 id="chapters-99-appendix-appendix-reference-material">Appendix – Reference Material<a class="headerlink" href="#chapters-99-appendix-appendix-reference-material" title="Permanent link">&para;</a></h1>
 <p>Use this section for:</p>
 <ul>
 <li>Cheatsheets</li>
@@ -1024,6 +1177,11 @@ You can:</p>
                 .print-site-enumerate-headings #preface h3 {  counter-increment: counter-preface-3 }
             
 .print-site-enumerate-headings #section-5 > h1:before { content: '5 ' }
+.print-site-enumerate-headings #chapters-01-introduction > h1:before { content: '5.1 ' }
+
+                .print-site-enumerate-headings #chapters-01-introduction h2:before { content: '5.1.' counter(counter-chapters-01-introduction-2) ' ' }
+                .print-site-enumerate-headings #chapters-01-introduction h2 {  counter-increment: counter-chapters-01-introduction-2 }
+            
 .print-site-enumerate-headings #chapters-02-first-steps > h1:before { content: '5.2 ' }
 
                 .print-site-enumerate-headings #chapters-02-first-steps h2:before { content: '5.2.' counter(counter-chapters-02-first-steps-2) ' ' }
