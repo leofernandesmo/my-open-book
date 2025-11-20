@@ -39,7 +39,6 @@ Below are examples of fenced code blocks with language tags for syntax highlight
 
 === "Python"
 
-````
 ```python
 def greet(name: str) -> str:
     """Return a greeting message."""
@@ -48,11 +47,9 @@ def greet(name: str) -> str:
 if __name__ == "__main__":
     print(greet("Student"))
 ```
-````
 
 === "JavaScript"
 
-````
 ```javascript
 function sum(a, b) {
   return a + b;
@@ -60,11 +57,9 @@ function sum(a, b) {
 
 console.log("Result:", sum(2, 3));
 ```
-````
 
 === "Java"
 
-````
 ```java
 public class Hello {
     public static void main(String[] args) {
@@ -73,7 +68,6 @@ public class Hello {
     }
 }
 ```
-````
 
 You can add more languages as needed: `c`, `cpp`, `bash`, `html`, etc.
 
@@ -172,19 +166,3 @@ Most modern browsers will show a built-in audio player.
 [:material-arrow-left: Back to Preface](../preface.md)
 [:material-arrow-right: Go to Chapter 2 – First Steps](02-first-steps.md)
 
-````
-
-### `docs/chapters/02-first-steps.md` (minimal)
-
-```markdown
-# 2. First Steps
-
-This chapter continues from the examples shown in Chapter 1 and begins the
-real journey into **[Topic]**.
-
-(Write your actual content here.)
-
----
-
-[:material-arrow-left: Back to Chapter 1](01-introduction.md)  
-[:material-arrow-right: Go to Appendix](99-appendix.md)
