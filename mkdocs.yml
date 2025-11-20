@@ -53,7 +53,8 @@ plugins:
   - print-site:
       add_to_navigation: true
       print_page_title: "Print / Save PDF"
-      add_print_button: true
+
+
 
 extra_css:
   - assets/extra.css
