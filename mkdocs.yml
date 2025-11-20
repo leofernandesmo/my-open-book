@@ -1,7 +1,7 @@
-site_name: My Open Book
-site_description: "An open textbook for students"
-site_url: "https://<your-github-username>.github.io/my-open-book/"
-repo_url: "https://github.com/<your-github-username>/my-open-book"
+site_name: "My Open Book Title (REPLACE ME)"
+site_description: "An open textbook about <topic> (REPLACE ME)"
+site_url: "https://<github-username>.github.io/<book-repo-name>/"
+repo_url: "https://github.com/<github-username>/<book-repo-name>"
 repo_name: "GitHub"
 
 theme:
