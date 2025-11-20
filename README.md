@@ -1,16 +1,3 @@
-Below is a **complete, teacher-friendly README.md** that you can place at the root of your repository.
-It explains clearly how students can:
-
-* **Fork** the repository
-* **Clone** it locally
-* **Install dependencies**
-* **Preview the book** locally
-* **Build** the static site
-* **Deploy** (only if they are the owner)
-
-This README is ready to copy–paste.
-
----
 
 # 📘 My Open Book — README
 
@@ -216,11 +203,4 @@ If you wish to contribute:
 
 ---
 
-If you'd like, I can also generate:
 
-* A **teacher version** of this README
-* A **CONTRIBUTING.md** for your students
-* A **LICENSE** file (MIT, CC-BY-SA, GPL, etc.)
-* A **template chapter** for students to follow
-
-Just tell me!
